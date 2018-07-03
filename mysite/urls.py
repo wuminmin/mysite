@@ -27,5 +27,10 @@ from mysite import views
 urlpatterns = [
     url(r'^polls/', include('polls.urls')),
     url(r'^admin/', admin.site.urls),
+    url(r'^information', views.information),
+    url(r'^buy', views.buy),
+    url(r'^scenery', views.scenery),
+    url(r'^about', views.about),
+    url(r'^index', views.index),
     url(r'^$',views.index)
 ]
