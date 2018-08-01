@@ -25,7 +25,8 @@ SECRET_KEY = ')8r##!u1i)b%$-f2f8wuxjn=xynawba7(%hjv#l2z=0i9g)&ds'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['www.wuminmin.top','127.0.0.1']
+# ALLOWED_HOSTS = ['www.wuminmin.top','127.0.0.1']
+ALLOWED_HOSTS = ['*',]
 
 
 # Application definition

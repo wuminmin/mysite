@@ -32,5 +32,6 @@ urlpatterns = [
     url(r'^scenery', views.scenery),
     url(r'^about', views.about),
     url(r'^index', views.index),
+    url(r'^speedtest', views.speedtest),
     url(r'^$',views.index)
 ]
